@@ -6,7 +6,7 @@
 SURFsara's Research Cloud
 ===============================
 
-lkwjefiouwef
+This is a placeholder for the documentation of a development project: the SURFsara Research Cloud.
 
 .. toctree::
    :maxdepth: 2
