@@ -18,5 +18,14 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
+
+x
+=
+
+.. toctree::
+   :caption: dinges en spul
+   :titlesonly:
+   :glob:
+   
+   *
