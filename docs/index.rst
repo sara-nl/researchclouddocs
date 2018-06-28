@@ -12,6 +12,10 @@ This is a placeholder for the documentation of a development project: the SURFsa
    :maxdepth: 2
    :caption: Contents:
 
+Useful pages
+============
+
+* :doc:`get_started`
 
 
 Indices and tables
@@ -19,13 +23,3 @@ Indices and tables
 
 * :ref:`genindex`
 * :ref:`search`
-
-x
-=
-
-.. toctree::
-   :caption: dinges en spul
-   :titlesonly:
-   :glob:
-   
-   *
