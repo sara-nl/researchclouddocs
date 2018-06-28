@@ -19,13 +19,3 @@ Indices and tables
 
 * :ref:`genindex`
 * :ref:`search`
-
-x
-=
-
-.. toctree::
-   :caption: dinges en spul
-   :titlesonly:
-   :glob:
-   
-   *
