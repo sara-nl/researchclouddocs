@@ -8,7 +8,7 @@
 Some test page
 ==============
 
-A "get started" introduction for novice users of SURFsara's Research Cloud.
+This is a test page to try out features of the documentation framework.
 
 .. toctree::
    :maxdepth: 2
