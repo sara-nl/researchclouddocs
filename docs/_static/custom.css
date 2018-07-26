@@ -11,3 +11,16 @@ h2 {
 h3, h4, h5, h6 {
     font-family: Arial, sans-serif;
 }
+/* need to do the same for div.body */
+div.body h1 {
+    font-family: VarelaRoundRegular, serif;
+}
+div.body h2 {
+    font-family: ProximaNovaSoft, serif;
+}
+div.body h3,
+div.body h4,
+div.body h5,
+div.body h6 {
+    font-family: Arial, sans-serif;
+}
