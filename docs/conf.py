@@ -6,6 +6,9 @@
 # full list see the documentation:
 # http://www.sphinx-doc.org/en/master/config
 
+# See also: http://www.sphinx-doc.org/en/stable/config.html
+# and https://alabaster.readthedocs.io/en/latest/customization.html
+
 # -- Path setup --------------------------------------------------------------
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -19,14 +22,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'RSC'
+project = 'Research Cloud'
 copyright = '2018, SURFsara'
 author = 'SURFsara'
 
 # The short X.Y version
-version = ''
+version = '0.3'
 # The full version, including alpha/beta/rc tags
-release = ''
+release = 'rc4'
 
 
 # -- General configuration ---------------------------------------------------
@@ -58,7 +61,7 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'en'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -68,6 +71,7 @@ exclude_patterns = []
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
+primary_domain = None
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -81,6 +85,11 @@ html_theme = 'alabaster'
 # documentation.
 #
 # html_theme_options = {}
+html_theme_options = {
+    'logo': 'SURFsara_logo.png',
+    'logo_name': True,
+    'fixed_sidebar': True,
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -96,6 +105,16 @@ html_static_path = ['_static']
 # 'searchbox.html']``.
 #
 # html_sidebars = {}
+html_sidebars = {
+    '**': [
+        'about.html',
+        'localtoc.html',
+#        'navigation.html',
+#        'relations.html',
+#        'sourcelink.html',
+        'searchbox.html',
+    ]
+}
 
 
 # -- Options for HTMLHelp output ---------------------------------------------

@@ -1,0 +1,13 @@
+/* Conform to fonts in https://intranet.surf.nl/display/COM/Huisstijlhandboek */
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    font-family: VarelaRoundRegular, serif;
+}
+h2 {
+    font-family: ProximaNovaSoft, serif;
+}
+h3, h4, h5, h6 {
+    font-family: Arial, sans-serif;
+}

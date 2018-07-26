@@ -1,6 +1,6 @@
-/venv/
 /build/
+/docs/_build/
+/.idea/
 .vscode
 .DS_Store
 *.pyc
-/docs/_*

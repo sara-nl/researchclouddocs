@@ -1,16 +1,7 @@
-.. RSC documentation master file, created by
-   sphinx-quickstart on Mon May 28 13:24:37 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Get started with SURFsara's Research Cloud
-===============================
+=========================================================
 
 A "get started" introduction for novice users of SURFsara's Research Cloud.
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
 
 Introduction
 -------------
@@ -31,16 +22,19 @@ Step 1: Login to the RSC environment
 -------------------------------------
 
 SURFsara's Research Cloud is accessible by researchers from SURF_ connected institutes.
-The authentication is done by your institute, through SURFconext_.
+The authentication is done by your own institute, through SURFconext_.
 
-After you click the ``Login`` button, you will be presented with the SURFconext login procedure.
+.. note::
+    As the Research Cloud is still under construction, we cannot give you a stable link to the login yet.
+
+After you click the :guilabel:`Login` button, you will be presented with the SURFconext login procedure.
 You will authenticate yourself to your institute with your institute's credentials.
 Next you must approve to pass some information from SURFconext to the Research Cloud.
 
 Step 2: Start your first workspace
 ------------------------------------
 
-Go to ``Workspaces`` (left navigation column).
+Go to :guilabel:`Workspaces` (left navigation column).
 You will see a blank list because, as you are new to the Research Cloud, 
 you have no personal assets yet.
 
@@ -49,14 +43,14 @@ Give the workspace a name and, optionally, a description.
 
 For this first workspace, we will not bother with attaching data.
 
-Select the ``Jupyter Hub`` bar and it will unfold.
+Select the :guilabel:`Jupyter Hub` bar and it will unfold.
 Check the checkbox to indicate that you want this app in your workspace.
 
 Leave the cloud infra structure and VM size selectors as they are (hpc-cloud and small VM).
 
 Enter a Jupyter Hub username and password, **not any of your regular passwords**
 
-Click the ``start workspace`` button (lower right) and the new workspace will begin to build.
+Click the :guilabel:`start workspace` button (lower right) and the new workspace will begin to build.
 
 Step 3: Login to your workspace application
 --------------------------------------------
@@ -64,9 +58,9 @@ Step 3: Login to your workspace application
 After a while, your workspace application becomes ready.
 You can monitor the state on the main Workspaces page and refresh with the circular-arrow button (top right).
 
-Once the workspace has status ``running``, click the ``more info`` button and you will see the detailed page with an ``access`` button.
+Once the workspace has status :guilabel:`running`, click the :guilabel:`more info` button and you will see the detailed page with an :guilabel:`access` button.
 
-Click the ``access`` button and the web page for your application opens in your browser.
+Click the :guilabel:`access` button and the web page for your application opens in your browser.
 Use the username and password you entered in step 2 to gain access.
 
 Additional support
@@ -76,4 +70,4 @@ More information and support is available: write an email to `helpdesk@surfsara.
 
 .. _SURF: https://surf.nl/
 .. _SURFconext: https://surfconext.nl/
-.. _helpdesk@surfsara.nl: mailto:helpdesk@surfsara.nl
+.. _helpdesk@surfsara.nl: mailto:helpdesk@surfsara.nl?subject=ResearchCloud%20question
