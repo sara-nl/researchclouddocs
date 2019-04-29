@@ -1,46 +1,30 @@
-SURFsara's Research Cloud
+SURF Research Cloud
 ===============================
 
-This is the end-user documentation for a SURFsara_ development project: Research Cloud.
+SURF ResearchCloud is a service to facilitate scientists' collaborative work.
 
-Useful pages
-------------
+As a scientist, you can use your institutional credentials to authenticate yourself, so you do not need to remember yet another password.
+You can create so-called Collaborative Organisations where you can invite your fellow researchers to work as a team.
+Each team member can further bring their own data, budgets and applications to share with the rest of the team.
 
-..  Use toctree as a tree, rooted at this document.
-    Do not include references to a document higher up in the tree,
-    but a document can have several sub-pages if needed.
-    This could be used to organise topics.
-    The index mechanism can be used in future to create a cross reference index.
+Workspaces are the environments which you run to actually compute in. 
+You can share them with your team in a Collaboratie Organisation, but you can also keep your private ones.
 
-..  First section: general docs.
+Within your workspaces, you can run applications and data that are readily available in our catalogue, or you can bring your own.
 
-..  toctree::
-    :caption: General
-    :name: toc_general
-    :titlesonly:
+You can decide upon creating your workspaces which underlying (cloud) infrastructure you want to use. 
 
-    get_started
+You can keep your budgets under control by looking at their evolution as workspaces draw from them.
 
-..  Next section: pages not yet finished, but importent enoug to announce.
+----
 
-..  toctree::
-    :caption: Under construction
-    :name: toc_under_construction
-    :titlesonly:
-
-    service
-
-Other
-------------------
-
-..  skip for now:
-    * :ref:`genindex`
+For more information:
 
 * :ref:`search`
-* You can also mail SURFsara's helpdesk for human assistance: `helpdesk@surfsara.nl`_
+* SURFsara's helpdesk: `helpdesk@surfsara.nl`_
+* The service: https://researchcloud.surfsara.nl
 
-..  skip for now:
-    * :doc:`all_pages2`
+.. Substritution definitions:
 
 .. _SURFsara: https://surfsara.nl/
 .. _helpdesk@surfsara.nl: mailto:helpdesk@surfsara.nl?subject=ResearchCloud%20question
