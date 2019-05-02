@@ -10,6 +10,10 @@ You will need to dig into each application's characteristics to know how you can
 Examples of applications
 -------------------------
 
-.. TODOcument
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
 
-To be added.
+   ../apps_specifics/jupyter
+
+.. TODOcument: add more

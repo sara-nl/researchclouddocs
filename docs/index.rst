@@ -19,3 +19,13 @@ General
    applications
    datasets
    cloud_providers
+
+Sample applications
+====================
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   apps_specifics/jupyter
+

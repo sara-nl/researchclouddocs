@@ -11,7 +11,6 @@ You can simply make workspaces by following a wizard. The following pages explai
 
 .. toctree::
    :maxdepth: 1
-   :numbered:
    :titlesonly:
 
    wizard/cos
