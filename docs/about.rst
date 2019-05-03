@@ -25,6 +25,13 @@ For more information:
 * SURFsara's helpdesk: `helpdesk@surfsara.nl`_
 * The service: https://researchcloud.surfsara.nl
 
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   help/index
+
 .. Substitution definitions:
 
 .. _SURFsara: https://surfsara.nl/

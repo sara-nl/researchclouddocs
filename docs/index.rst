@@ -29,3 +29,11 @@ Sample applications
 
    apps_specifics/jupyter
 
+Terms and conditions
+=====================
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   usage_agreement_SURFsara_systems
