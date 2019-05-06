@@ -13,6 +13,7 @@ General
    :titlesonly:
 
    about
+   account_setup
    workspaces
    collaborative_organisations
    wallets_budgets
