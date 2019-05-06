@@ -3,4 +3,14 @@ Setting up your account
 
 
 
-.. TODOcument: describe how to dpo TOTP and researchdrive token
+Setup Time-based One-time Password 
+-------------------------
+
+.. TODOcument: describe how to do TOTP
+
+
+Link personal ResearchDrive token
+-------------------------
+
+.. TODOcument: describe how to link ResearchDrive token
+
