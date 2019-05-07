@@ -11,11 +11,11 @@ Research Cloud is a platform for supporting research by working together with se
 How are COs used in Research Cloud
 -------------------------
 
-In the research Cloud portal you can view the COs you are a member of under the `my profile` menu. All the members of the CO are listed. When you start a workspace the first thing you do is choose whether you run it for a specific CO, or it is a private workspace. Private workspaces are explained in another part of the documentation. 
+In the Research Cloud portal you can view the COs you are a member of under the `my profile` menu. All the members of the CO are listed. When you start a workspace the first thing you do is choose whether you run it for a specific CO, or choose to run it as a private workspace. Private workspaces are explained in another part of the documentation. After choosing the CO the user can choose an application and in a step later a dataset. The item from the catalog that are shown are filtered based on the chosssen CO. A catalog item admin can choose which COs have access to the items he manages.
 
-.. Effect of CO choice on catalog item choices
+When you have started a workspace for a CO, all members of that CO will see the workspace in the active workpaces list. All members can access this workspace. The information that is put into the CO, either in SCZ or the research cloud portal, such as the SSH key andd the Time-based One-time Password (TOTP) link setup by the user, are used to create accounts and authentication methods for entering the workspace. This means the workspace is shared between the CO members for working together. 
 
-.. Effect of the CO in the workspace
+.. Refer to persistent storage
 
 
 
@@ -30,6 +30,8 @@ After the CO is created you can invite users into your CO from the SCZ user inte
 
 Persistent CO storage
 -------------------------
+
+WORK IN PROGRESS
 
 .. Workspaces are volatile
 .. Persistent storage using researchDrive
