@@ -3,6 +3,9 @@ About the service
 
 SURF ResearchCloud is a service to facilitate scientists' collaborative work. It is developed and offered by `SURFsara`_
 
+.. image:: _static/rsc_workflow.png
+
+
 As a scientist, you can use your **institutional credentials** to authenticate yourself, so you do not need to remember yet another password.
 
 You can create so-called :doc:`Collaborative Organisations <collaborative_organisations>` where you can invite your fellow researchers to work as a team.
