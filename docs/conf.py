@@ -22,8 +22,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Research Cloud'
-copyright = '2018, SURFsara'
+project = 'Research Cloud docs'
+copyright = 'SURFsara'
 author = 'SURFsara'
 
 # The short X.Y version
@@ -108,8 +108,8 @@ html_static_path = ['_static']
 html_sidebars = {
     '**': [
         'about.html',
-        'localtoc.html',
-#        'navigation.html',
+#        'localtoc.html',
+        'navigation.html',
 #        'relations.html',
 #        'sourcelink.html',
         'searchbox.html',
