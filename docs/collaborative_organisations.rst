@@ -31,6 +31,8 @@ After the CO is created you can invite users into your CO from the SCZ user inte
 Persistent CO storage
 -------------------------
 
-The workspaces started in Research Cloud are volatile in the standard flow. For saving results and getting data to the workspace we provide a ressearchdrive folder to all CO.
+The workspaces started in Research Cloud are volatile in the standard flow. For saving results and getting data to the workspace we provide a ressearchdrive folder to all COs. After enrolling a new member into your CO you can sshare the REssearchDrive CO folder with them inside the ResearchDrive user interface.
+
+In the chapter 'Setting up your account' is a description how to add your ResearchDrive account information to Research Cloud. This information can be used to link your ResearchDrive to the workspaces you enter.  After doing this you have to link the information to the COs you are a member of to make it active for worksspace of this CO. Every user has his own researchDrive linked, and you can work together in the shared folder.
 
 
