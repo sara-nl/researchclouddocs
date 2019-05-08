@@ -14,7 +14,7 @@ Using wallets
 
 Wallets are the means through which you finance your workspaces in Research Cloud. Wallets are how we call in Research Cloud existing budgets that you have made available to yourself or to your Collaborative Organisations.
 
-Budgets entitle you to use cloud providers, and they are issued to you by those cloud providers themselves. For example, you may hold a budget to allow you to use the `HPC Cloud https://doc.hpccloud.surfsara.nl>`, which you may have obtained as an `e-infra request <https://e-infra.surfsara.nl>`. 
+Budgets entitle you to use cloud providers, and they are issued to you by those cloud providers themselves. For example, you may hold a budget to allow you to use the `HPC Cloud <https://doc.hpccloud.surfsara.nl>`_, which you may have obtained as an `e-infra request <https://e-infra.surfsara.nl>`_. 
 
 Put differently, you must bring budgets into Research Cloud so that you can launch workspaces on cloud providers you have access to. Budgets are, therefore, something which exists outside of Research Cloud. Wallets are how we call budgets that have been made available in Research Cloud.
 
