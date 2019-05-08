@@ -1,7 +1,7 @@
 About the service
 ======================================
 
-SURF ResearchCloud is a service to facilitate scientists' collaborative work. It is developed and offered by `_SURFsara`
+SURF ResearchCloud is a service to facilitate scientists' collaborative work. It is developed and offered by `SURFsara`_
 
 As a scientist, you can use your **institutional credentials** to authenticate yourself, so you do not need to remember yet another password.
 

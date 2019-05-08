@@ -1,8 +1,14 @@
 SURF Research Cloud
 ===============================
 
+.. sidebar:: Quick links:
+    
+    * `The portal <https://development.surfresearchcloud.nl/>`_
+    * `helpdesk@surfsara.nl`_
+
+
 Welcome to the Research Cloud documentation page. 
-Please choose on the left menu the topic you are interested in.
+Please choose the topic you are interested in.
 
 General
 ========
@@ -38,3 +44,5 @@ Terms and conditions
    :titlesonly:
 
    usage_agreement_SURFsara_systems
+
+.. _helpdesk@surfsara.nl: mailto:helpdesk@surfsara.nl?subject=ResearchCloud%20question

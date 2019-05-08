@@ -3,13 +3,13 @@ Collaborative Organisations
 
 
 What is a collaborative organisation (CO)
--------------------------
+------------------------------------------
 
-Research Cloud is a platform for supporting research by working together with selected tools and data in workspaces. Working together is done with Collaborative Organisations. These are ad-hoc groups of people you can make or join to work together on a given research. The concept of the CO comes from Science Collaboration Zone (SCZ):  https://wiki.surfnet.nl/display/SCZ/Science+Collaboration+Zone+Home. People are invited into COs based on information given by there identity provider (IdP). Different types of IdPs supported by SCZ are institute IdPs through SURFconext, or internationaly through EDUgain, or for example social IdPs like google and outlook.
+Research Cloud is a platform for supporting research by working together with selected tools and data in workspaces. Working together is done with Collaborative Organisations. These are ad-hoc groups of people you can make or join to work together on a given research. The concept of the CO comes from Science `Collaboration Zone (SCZ)  <https://wiki.surfnet.nl/display/SCZ/Science+Collaboration+Zone+Home>`_. People are invited into COs based on information given by their identity provider (IdP). Different types of IdPs supported by SCZ are institute IdPs through SURFconext, or internationally through EDUgain, or for example social IdPs like google and outlook.
 
 
 How are COs used in Research Cloud
--------------------------
+-----------------------------------
 
 In the Research Cloud portal you can view the COs you are a member of under the `my profile` menu. All the members of the CO are listed. When you start a workspace the first thing you do is choose whether you run it for a specific CO, or choose to run it as a private workspace. Private workspaces are explained in another part of the documentation. After choosing the CO the user can choose an application and in a step later a dataset. The item from the catalog that are shown are filtered based on the chosssen CO. A catalog item admin can choose which COs have access to the items he manages.
 
