@@ -31,7 +31,6 @@ After the CO is created you can invite users into your CO from the SCZ user inte
 Persistent CO storage
 -------------------------
 
-WORK IN PROGRESS
+The workspaces started in Research Cloud are volatile in the standard flow. For saving results and getting data to the workspace we provide a ressearchdrive folder to all CO.
 
-.. Workspaces are volatile
-.. Persistent storage using researchDrive
+
