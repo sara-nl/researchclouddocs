@@ -30,6 +30,6 @@ The workspaces in Research Cloud are volatile, this means any data stored on the
 - The name of the WebDAV password can be chosen by the user, but a good example would be RSC, so you know what you linked using this WebDAV token.
 - After generation the accountname and token can be copiedd to the form in thee research cloud portal
 
-After the token is added to your research Cloud profile it has to be shared with the COs you want to use the researchDrive storage with. This can be done by clicking 'ResearchDrive token not linked, click here to link' in the CO card.
+After the token is added to your research Cloud profile it has to be shared with the COs you want to use the researchDrive storage with. This can be done by clicking 'Drive not linked, click to link' in the CO card.
 
 
