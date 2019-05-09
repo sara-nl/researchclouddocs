@@ -1,21 +1,23 @@
 Setting up your account
 ======================================
 
-After you have an active account in ResearchCloud ssome information needs to be linked to be able to use the all the features. 
+After you have an active account in ResearchCloud some information needs to be linked to be able to use the all the features. 
 
 
-Setup Time-based One-time Password (TEST PHASE DESCRIPTION)
+Time-based One-time Password
 -------------------------------------
 
-For entering a web application with bassic authentication, accountname / password combination, we uses Time-based One-time Password as an extra security measure. https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm
+.. note:: TOTP linking cannot be fully fulfilled in the ResearchCloud portal yet. We are working on it, but the workaround for the time being is to request your QR code here: https://TOTP.rsc-surfsara.surf-hosted.nl. You will be asked to log in using the same authentication flow as with the ResearchCloud portal, and you will be able to request your QR codes.
 
-The TOTP has to be set up for every CO you are a member of. For the link you have to scan a QR code with a TOTP client, for example FreeOTP or Google Authenticator on a mobile phone.
+For entering a web application with basic authentication (i.e.: a combination of a username and password) we set up our apps to work with `Time-based One-time Password authentication <https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm>`_ as an extra security measure. It basically 
 
-Note that the QR code and the TOTP URL should be considered secrets. They cannot be reproduced and should not be stored anywhere. However, you can always re-initialize the TOTP. This will invalidate the previously initialized code and gives you the opportunity to configure a new client.
+TOTP has to be set up for every CO you are a member of, and once more for your private (i.e.: non-CO-related workspaces). It boils down to scanning a QR code with a suitable app in your mobile phone. For example FreeOTP or Google Authenticator are two alternatives we have tested successfully.
 
-The linking of the TOTP cannot be done in the research cloud portal yet. The workaround for the setup is here: https://TOTP.rsc-surfsara.surf-hosted.nl You will be asked to login using the same authentication flow is with the research cloud portal.
+.. warning::
 
-Afterr linking the TOTP you can test it be logging into for example R-Studio. The TOTP app on your phone shows your login name, the, periodical changing, numerical code can be used as password. 
+    The QR code and your specific TOTP URL should be considered **secrets**. They **cannot** be reproduced and should **not** be stored anywhere. You can always re-initialize your TOTP. This will invalidate any previously initialized tokens and this gives you the opportunity to configure a new client as well.
+
+After linking TOTP you can test it by logging into, for example, an R-Studio or Jupyter that you may have created as a workspace. The TOTP app on your phone shows active (possibly multiple) tokens. These tokens include your username for that token along with a numerical code which you can use as a password. This code is time-based, and you can actually see it change if you keep looking at it for a while. 
 
 
 Link personal ResearchDrive token

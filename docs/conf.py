@@ -89,6 +89,8 @@ html_theme_options = {
     'logo': 'SURFsara_logo.png',
     'logo_name': True,
     'fixed_sidebar': True,
+    'warn_border': '#ffeeba',
+    'warn_bg': '#fff3cd'
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
