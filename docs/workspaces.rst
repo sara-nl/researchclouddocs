@@ -70,6 +70,26 @@ Depending on the :doc:`application(s) <applications>` requested for the workspac
 * IP addresses
 * usernames, passwords or other log-in information for the application
 
+Login to a workspace application
+^^^^^^^^^^^^^^^^^^^^^
+
+When the workspace has completed its initialization and is in state "running", you can login to the workspace application with the *Access* button at the bottom of the extended information.
+
+This opens a new page in your browser which shows you the application's login page (depending on the application).
+
+Most applications will ask for a username and password.
+
+The username is relative to the CO used to start up the workspace (shown in the workspace details).
+If you forgot the corresponding username, go to the profile page, find the corresponding CO (or your personal information if the workspace has no CO) and note its username.
+
+The password is a 6-digit code shown in your phone's TOTP application.
+Open your phone's TOTP app, find the right entry (if you have more than one): it should be labelled "SURF Research Cloud" and also show the CO name and the login.
+
+Note: the TOTP code changes every 30 seconds and the app shows how long the code is still valid. 
+Find out how long it takes you to type the code on your computer and hit the login button.
+If the code is about to expire, you may decide to wait for the changing of the code.
+
+
 Deleting a workspace
 ^^^^^^^^^^^^^^^^^^^^^
 
