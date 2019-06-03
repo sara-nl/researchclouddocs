@@ -39,22 +39,29 @@ To share the Research Drive folder with others:
 
 - Log in to your Research Drive account on https://researchdrive.surfsara.nl/
 
-- Click the three dotted icon to the right of the folder you wish to share:  
-<img src="https://i.imgur.com/FG6ghwE.png"  width="70%" height="50%">  
-  
+- Find the folder you wish to share and click the triangular icon to the right of the folder name
+.. image:: _static/rsc_drive/share_folder.png
+	:width: 70%
+	:align: center
+
 - A panel like the one below will appear on the right side:  
-<img src="https://i.imgur.com/n9dLYCF.png"  width="50%" height="50%">  
-  
+.. image:: _static/rsc_drive/search_user.png
+	:width: 50%
+	:align: center
+
 - Start typing, in the search bar, the name of the user you wish to share the folder with and, once it appears as a result below the search bar, click it:  
-<img src="https://i.imgur.com/SyBxNez.png"  width="50%" height="50%">  
+.. image:: _static/rsc_drive/share_with_user.png
+	:width: 50%
+	:align: center
 
 
 - This will share the folder with the user and show a new menu with options below. Click "notify by email" to send an email to the user. Toggle "can edit" to allow the user to modify the contents of the folder:
-<img src="https://i.imgur.com/zJIBXqb.png"  width="50%" height="50%">
+.. image:: _static/rsc_drive/notify_user.png
+	:width: 50%
+	:align: center
 
 - You should now be able to view the folder in the "Shared with others" section of the sidebar:
-<img src="https://i.imgur.com/92mg8Jf.png"  width="50%" height="50%">
-
-
-
+.. image:: _static/rsc_drive/view_shared_folder.png
+	:width: 50%
+	:align: center
 
