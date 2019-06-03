@@ -31,8 +31,37 @@ After the CO is created you can invite users into your CO from the SCZ user inte
 Persistent CO storage
 -------------------------
 
-The workspaces started in Research Cloud are volatile in the standard flow. For saving results and getting data to the workspace we provide a ressearchdrive folder to all COs. After enrolling a new member into your CO you can sshare the REssearchDrive CO folder with them inside the ResearchDrive user interface.
+The workspaces started in Research Cloud are volatile in the standard flow. For saving results and getting data to the workspace we provide a ressearchdrive folder to all COs. After enrolling a new member into your CO you can share the Research Drive CO folder with them inside the ResearchDrive user interface.
 
 In the chapter 'Setting up your account' is a description how to add your ResearchDrive account information to Research Cloud. This information can be used to link your ResearchDrive to the workspaces you enter.  After doing this you have to link the information to the COs you are a member of to make it active for worksspace of this CO. Every user has his own researchDrive linked, and you can work together in the shared folder.
 
+To share the Research Drive folder with others:
+
+- Log in to your Research Drive account on https://researchdrive.surfsara.nl/
+
+- Find the folder you wish to share and click the triangular icon to the right of the folder name
+.. image:: _static/rsc_drive/share_folder.png
+	:width: 70%
+	:align: center
+
+- A panel like the one below will appear on the right side:  
+.. image:: _static/rsc_drive/search_user.png
+	:width: 50%
+	:align: center
+
+- Start typing, in the search bar, the name of the user you wish to share the folder with and, once it appears as a result below the search bar, click it:  
+.. image:: _static/rsc_drive/share_with_user.png
+	:width: 50%
+	:align: center
+
+
+- This will share the folder with the user and show a new menu with options below. Click "notify by email" to send an email to the user. Toggle "can edit" to allow the user to modify the contents of the folder:
+.. image:: _static/rsc_drive/notify_user.png
+	:width: 50%
+	:align: center
+
+- You should now be able to view the folder in the "Shared with others" section of the sidebar:
+.. image:: _static/rsc_drive/view_shared_folder.png
+	:width: 50%
+	:align: center
 
