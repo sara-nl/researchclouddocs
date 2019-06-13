@@ -68,7 +68,6 @@ Depending on the :doc:`application(s) <applications>` requested for the workspac
 * a list of names of applications and datasets included in the workspace
 * which underlying infrastructure the workspace is running on
 * IP addresses
-* usernames, passwords or other log-in information for the application
 
 Login to a workspace application
 ^^^^^^^^^^^^^^^^^^^^^
