@@ -9,19 +9,45 @@ After you have an active account in ResearchCloud some information needs to be l
 Time-based One-time Password
 -------------------------------------
 
-.. note:: TOTP linking cannot be fully fulfilled in the ResearchCloud portal yet. We are working on it, but the workaround for the time being is to request your QR code here: https://TOTP.rsc-surfsara.surf-hosted.nl. You will be asked to log in using the same authentication flow as with the ResearchCloud portal, and you will be able to request your QR codes.
+Several web applications are protected by username/password authentication and we set up our apps to work with 
+`Time-based One-time Password authentication <https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm>`_, or TOTP.
 
-For entering a web application with basic authentication (i.e.: a combination of a username and password) we set up our apps to work with `Time-based One-time Password authentication <https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm>`_ as an extra security measure.  
+When an application login page asks for a password, you will need to copy a TOTP code from an app on your phone.
+This TOTP code is relative to the CO that started the workspace: each CO has its own entry in your TOTP app.
 
-TOTP has to be set up for every :doc:`Collaborative Organisation (CO) </collaborative_organisations>` you are a member of, and once more for your private (i.e.: non-CO-related workspaces). It boils down to scanning a QR code with a suitable app in your mobile phone. For example FreeOTP or Google Authenticator are two alternatives we have tested successfully. You can find those apps in your usual mobile phone's app store.
+The first thing you need is a TOTP app for your phone.
+If you already use TOTP authentication, you can use that app for Research Cloud as well.
+
+Otherwise, you need to install a TOTP app, several good apps are available. 
+Here is a small selection, you can find those apps in your usual mobile phone's app store:
+
+- Google Authenticator
+- FreeOTP Authenticator
+- Authy
+
+A separate TOTP entry has to be set up for each of your :doc:`Collaborative Organisation (CO) </collaborative_organisations>` 
+and one more for your private (i.e.: non-CO-related workspaces). 
+You do this by scanning a QR code with the TOTP app on your mobile phone. 
+
+- go to the "Profile" page and look at your personal profile and each CO.
+- first time: you see a message "Time based password not set, click to set"
+- reset: open the context menu (three vertical dots) and use "Reset Time based password"
+- follow the instructions
+- test access with a workspace, if you have one for that CO.
 
 .. warning::
 
-    The QR code and your specific TOTP URL should be considered **secrets**. They **cannot** be reproduced and should **not** be stored anywhere. You can always re-initialize your TOTP. This will invalidate any previously initialized tokens and this gives you the opportunity to configure a new client as well.
+    The QR code and the entries in your TOTP app should be considered **secrets**.
+    Make sure nobody can copy your QR code from your screen during set-up.
+    Protect access to your phone (and the TOTP app).
 
-After linking TOTP you can test it by logging into, for example, an R-Studio or Jupyter that you may have created as a workspace. 
+We can only display a QR code once, but you can always reset a TOTP entry. 
+This replaces (invalidates) the old entry. Repeat this for all entries in case of a lost phone.
 
-The TOTP app on your phone shows (possibly multiple) **active tokens**. Each of these tokens includes your **username** for that token along with a **numerical code** which you can use as a password. This code is only valid for a limited (short) time, and you can actually see it change if you keep looking at the token for a while. 
+The TOTP app on your phone may show multiple entries. 
+Each of these entries includes your **username** for that CO along with a **numerical code** which you can use as a password. 
+The numerical code is only valid for a short time.
+If the code is about to expire, just wait to see it change and use the new one to log in.
 
 
 Link personal ResearchDrive token
