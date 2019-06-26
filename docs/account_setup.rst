@@ -1,19 +1,26 @@
 Setting up your account
 ======================================
 
-After you have an active account in ResearchCloud some information needs to be linked to be able to use the all the features. 
+After you have an active account in ResearchCloud some information needs to be linked to be able to use all features. 
 
 
 .. _label-totp:
 
-Time-based One-time Password
--------------------------------------
+TOTP 
+--------------
 
-Several web applications are protected by username/password authentication and we set up our apps to work with 
+Web applications usually are protected by username + password. In order for us not to have to pre-generate any passwords, we set up most of the applications offered in the ResearchCloud catalog to work with 
 `Time-based One-time Password authentication <https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm>`_, or TOTP.
 
-When an application login page asks for a password, you will need to copy a TOTP code from an app on your phone.
-This TOTP code is relative to the CO that started the workspace: each CO has its own entry in your TOTP app.
+.. note::
+
+    When a TOTP-enabled workspace asks for a password, you will type a numeric code generated in an app on your mobile phone. 
+
+
+TOTP per Collaborative Organisation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Each Collaborative Organisation requires its own entry in your TOTP app. When logging into a workspace, you must therefore know which CO the workspace belongs to.
 
 The first thing you need is a TOTP app for your phone.
 If you already use TOTP authentication, you can use that app for Research Cloud as well.
@@ -50,18 +57,45 @@ The numerical code is only valid for a short time.
 If the code is about to expire, just wait to see it change and use the new one to log in.
 
 
-Link personal ResearchDrive token
------------------------------------
+Research Drive 
+------------------
 
-The workspaces in Research Cloud are volatile, this means any data stored on the workspace itself will be gone when a workspace is stopped. As persistent storage every Collaeborative Organisation (CO) in research cloud receives a storage space in ResearchDrive. To connect the rseaerchdrive to the workspaces based on the users own identity researchdrive needs to be linked to every CO in the research cloud portal. The link is created in two steps. First the accountname and a webDAV token from your researchdrive account need to be linked to your Research Cloud profile. Go to the profile page, and use the 'link' button of the researchdrive quick action card. You are then asked for your ResearchDrive accountname and WebDAV token which you can get with the following steps in the ResearchDrive user interface:
+Workspaces in Research Cloud are volatile: after they cease to exist, they leave nothing behind. This applies to their data as well: any data stored on the workspace itself would be gone when a workspace is gone. In order to allow persistent storage that will outlive workspaces, every Collaborative Organisation (CO) in Research Cloud is entitled to storage space in Research Drive. 
 
+On the other hand, Research Drive requires personal user accounts to access it. This means that, in order to access your CO's Research Drive storage from Research Cloud's workspaces you log into, Research Cloud will need to know your Research Drive's identity. In the Research Cloud portal, you can establish this link in two steps: first, you must make your Research Drive space be known to Research Cloud; second (and final) you must enable (any of) your CO's to reach your Research Drive space. 
 
-- Go to your name on the right of the screen and click Settings
-- In the menu on the left, choose Security
-- Scroll to WebDAV passwords and click on Create new app password
-- The name of the WebDAV password can be chosen by the user, but a good example would be RSC, so you know what you linked using this WebDAV token.
-- After generation the accountname and token can be copiedd to the form in thee research cloud portal
+Personal Research Drive identity link
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-After the token is added to your research Cloud profile it has to be shared with the COs you want to use the researchDrive storage with. This can be done by clicking 'Drive not linked, click to link' in the CO card.
+In order to allow Research Cloud to know your Research Drive identity, you must know your Research Drive username and WebDAV token. You can get this by following the next steps:
+
+- Open the Research Drive portal in a new browser tab or window: https://researchdrive.surfsara.nl.
+- In the Research Drive portal, go to your name on the right of the screen and click _Settings_
+- From the menu on the left, choose _Security_
+- Scroll to the _WebDAV passwords_ section.
+- You must then type an _App name_ in the text box, that will help you identify which external apps (external to Research Drive, that is) have access to your Research Drive. A good example now would be 'Research Cloud'. 
+- Click on the _Create new app password_ button. 
+- Leave this window open while you prepare your Research Cloud portal to receive the information.
+
+Now, let us prepare the Research Cloud portal to receive the Research Drive information:
+
+- In a different browser window, navigate to the Research Cloud Portal.
+- Go to the _Profile_ page from the top menu. You will see there that there is a _Quick Action_ card with the title _Research Drive_. 
+- Click on the _Access_ button from the _Research Drive_ _Quick Action_ card. 
+
+You are then asked for your Research Drive username and WebDAV token. 
+
+- Copy and paste now both the _username_ and the _WebDAV token_ from the Research Drive window to the Research Cloud window.
+- Submit the form. 
+
+If you now click on the _Research Drive_ _Quick Action_ card's _Access_ button, a new browser window will open with your Research Drive displayed. This is a sign that it all went well.
+
+Research Drive identify for CO's
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+After you have linked your Research Drive identity to your Research Cloud profile, you can link it with your CO's. You can do this so:
+
+- In the Research Cloud portal, to go your Profile page. Under the heading _Collaborative organisations_ you can see one card for each of the CO's you are a member of.
+- For each CO you want to access Research Drive from, you must click the button _Drive not linked, click to link_ in the corresponding CO card.
 
 
