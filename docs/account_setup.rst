@@ -90,7 +90,7 @@ You are then asked for your Research Drive username and WebDAV token.
 
 If you now click on the *Research Drive* *Quick Action* card's *Access* button, a new browser window will open with your Research Drive displayed. This is a sign that it all went well.
 
-Research Drive identify for CO's
+Research Drive identity for CO's
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 After you have linked your Research Drive identity to your Research Cloud profile, you can link it with your CO's. You can do this so:
