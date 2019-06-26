@@ -70,32 +70,32 @@ Personal Research Drive identity link
 In order to allow Research Cloud to know your Research Drive identity, you must know your Research Drive username and WebDAV token. You can get this by following the next steps:
 
 - Open the Research Drive portal in a new browser tab or window: https://researchdrive.surfsara.nl.
-- In the Research Drive portal, go to your name on the right of the screen and click _Settings_
-- From the menu on the left, choose _Security_
-- Scroll to the _WebDAV passwords_ section.
-- You must then type an _App name_ in the text box, that will help you identify which external apps (external to Research Drive, that is) have access to your Research Drive. A good example now would be 'Research Cloud'. 
-- Click on the _Create new app password_ button. 
+- In the Research Drive portal, go to your name on the right of the screen and click *Settings*
+- From the menu on the left, choose *Security*
+- Scroll to the *WebDAV passwords* section.
+- You must then type an *App name* in the text box, that will help you identify which external apps (external to Research Drive, that is) have access to your Research Drive. A good example now would be ``Research Cloud``. 
+- Click on the *Create new app password* button. 
 - Leave this window open while you prepare your Research Cloud portal to receive the information.
 
 Now, let us prepare the Research Cloud portal to receive the Research Drive information:
 
 - In a different browser window, navigate to the Research Cloud Portal.
-- Go to the _Profile_ page from the top menu. You will see there that there is a _Quick Action_ card with the title _Research Drive_. 
-- Click on the _Access_ button from the _Research Drive_ _Quick Action_ card. 
+- Go to the *Profile* page from the top menu. You will see there that there is a *Quick Action* card with the title *Research Drive*. 
+- Click on the *Access* button from the *Research Drive* *Quick Action* card. 
 
 You are then asked for your Research Drive username and WebDAV token. 
 
-- Copy and paste now both the _username_ and the _WebDAV token_ from the Research Drive window to the Research Cloud window.
+- Copy and paste now both the **username** and the **WebDAV token** from the Research Drive window to the Research Cloud window.
 - Submit the form. 
 
-If you now click on the _Research Drive_ _Quick Action_ card's _Access_ button, a new browser window will open with your Research Drive displayed. This is a sign that it all went well.
+If you now click on the *Research Drive* *Quick Action* card's *Access* button, a new browser window will open with your Research Drive displayed. This is a sign that it all went well.
 
 Research Drive identify for CO's
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 After you have linked your Research Drive identity to your Research Cloud profile, you can link it with your CO's. You can do this so:
 
-- In the Research Cloud portal, to go your Profile page. Under the heading _Collaborative organisations_ you can see one card for each of the CO's you are a member of.
-- For each CO you want to access Research Drive from, you must click the button _Drive not linked, click to link_ in the corresponding CO card.
+- In the Research Cloud portal, to go your Profile page. Under the heading *Collaborative organisations* you can see one card for each of the CO's you are a member of.
+- For each CO you want to access Research Drive from, you must click the button *Drive not linked, click to link* in the corresponding CO card.
 
 
