@@ -3,8 +3,8 @@ Collaborative Organisations
 
 .. sidebar:: Video tutorials:
     
-    * `How to create a CO <https://researchdrive.surfsara.nl/index.php/s/aiGfkxLByUY2UKa/download>`_
-    * `How to invite a member to a CO <https://researchdrive.surfsara.nl/index.php/s/45XAPpoa4uAAAOW/download>`_
+    * `How to create a CO <https://researchdrive.surfsara.nl/index.php/s/aiGfkxLByUY2UKa>`_
+    * `How to invite a member to a CO <https://researchdrive.surfsara.nl/index.php/s/45XAPpoa4uAAAOW>`_
 
 What is a collaborative organisation (CO)
 ------------------------------------------
