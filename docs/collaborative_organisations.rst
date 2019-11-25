@@ -26,10 +26,19 @@ When you have started a workspace for a CO, all members of that CO will see the 
 How to request a new CO
 -------------------------
 
-A new CO can be requested by using the `request` button on the new CO part of of the profile page. After the request is send to SURF our helpdesk will create a new CO in SCZ. You will a message after the CO is created. We will also start the procedure to create persistent CO storage for this CO in ResearchDrive. Details xabout this storage are explained in the next paragraph.
+A new CO can be requested by using the `request` button on the new CO part of of the Profile page in Research Cloud. You can then follow the steps and a new CO will be created in SCZ. You will receive an e-mail after the CO is created with a link that you can follow to manage the CO in SCZ. 
+
+You are likely unable to see your CO in the Research Cloud portal just yet. You can follow these steps:
+
+1. Log into SCZ (e.g.: by following the link to your CO when you requested its creation, or by going to: https://comanage.pilot.scz.lab.surf.nl)
+2. On the left-column menu, choose "Collaborations"
+3. On the list, choose the CO that you want to make visible in Research Cloud
+4. On the left-column menu, choose "Configuration"
+5. For every row in the table, click on "Reprovision all"
 
 After the CO is created you can invite users into your CO from the SCZ user interface.
 
+We will explain the procedure to create persistent CO storage for this CO in ResearchDrive. Details about this storage are explained in the next paragraph.
 
 
 Persistent CO storage

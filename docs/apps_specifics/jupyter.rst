@@ -13,7 +13,7 @@ The `JupyterHub <https://jupyter.org/hub>`_ catalogue item that we offer is conf
 
 Usage guide
 -------------
-
+h9g8f7d65
 .. note::
 
     You can create a JupyterHub workspace by choosing the corresponding option in the :doc:`wizard </workspaces>`.  
