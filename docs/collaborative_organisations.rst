@@ -35,6 +35,7 @@ You are likely unable to see your CO in the Research Cloud portal just yet. You 
 3. On the list, choose the CO that you want to make visible in Research Cloud
 4. On the left-column menu, choose "Configuration"
 5. For every row in the table, click on "Reprovision all"
+6. Go to Research Cloud, to the profile page and press the "RELOAD COLLABORATIVE ORGANISATIONS"
 
 After the CO is created you can invite users into your CO from the SCZ user interface.
 
