@@ -29,8 +29,11 @@ Otherwise, you need to install a TOTP app, several good apps are available.
 Here is a small selection, you can find those apps in your usual mobile phone's app store:
 
 - Google Authenticator
-- FreeOTP Authenticator
-- Authy
+- `FreeOTP Authenticator`_ (by RedHat)
+- Authy_
+
+.. _FreeOTP Authenticator: https://freeotp.github.io/
+.. _Authy: https://authy.com/download/
 
 A separate TOTP entry has to be set up for each of your :doc:`Collaborative Organisation (CO) </collaborative_organisations>` 
 and one more for your private (i.e.: non-CO-related workspaces). 
